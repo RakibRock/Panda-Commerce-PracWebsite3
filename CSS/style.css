@@ -1,0 +1,26 @@
+.bg-cool {
+  background-color: #feeae9;
+}
+.carousel-inner {
+  margin-top: 100px;
+}
+.bg-pink {
+  background-color: #da70d6;
+}
+.bg-orange {
+  background-color: #ffa500;
+}
+.bg-blue {
+  background-color: #0000ff;
+}
+img {
+  width: 100px;
+}
+
+.make-round {
+  border-radius: 10px;
+}
+
+.sub-padding {
+  padding: 70px;
+}
