@@ -24,3 +24,15 @@ img {
 .sub-padding {
   padding: 70px;
 }
+
+@media only screen and (max-width: 425px) {
+  .carousel-inner {
+    text-align: center;
+  }
+  .carousel-item {
+    margin-top: 50px;
+  }
+  .btn-danger {
+    margin-bottom: 50px;
+  }
+}
