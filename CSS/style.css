@@ -29,6 +29,18 @@ img {
   .carousel-inner {
     text-align: center;
   }
+  h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .card-body {
+    text-align: center;
+  }
   .carousel-item {
     margin-top: 50px;
   }

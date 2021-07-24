@@ -12,7 +12,7 @@
     <header>
       <!-- Top-navigation -->
       <div class="container mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-100 make-round">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-100 make-round fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
               ><img
@@ -34,18 +34,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Backpack</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                 </li>
               </ul>
             </div>
@@ -55,7 +55,7 @@
       <!-- Hero-section -->
       <div class="container">
         <div
-          id="carouselExampleControls"
+          id="carouselExampleControls home"
           class="carousel slide"
           data-bs-ride="carousel"
         >
@@ -210,7 +210,7 @@
       </section>
       <!-- Shoe Cards -->
       <section>
-        <div class="container">
+        <div class="container" id="shoes">
           <h2>Shoes</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -281,7 +281,7 @@
         </div>
       </section>
       <!-- Backpack Cards -->
-      <div class="container py-5">
+      <div class="container py-5" id="backpack">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -363,7 +363,7 @@
         
       </section> 
       <!-- Subscribe -->
-      <div class="container bg-cool d-flex justify-content-center my-5 make-round sub-padding">
+      <div class="container bg-cool d-flex justify-content-center my-5 make-round sub-padding" id="subscribe">
            <div> <h3>LET'S STAY IN TOUCH</h3>
             <p>Get updates on sales, specials and more</p>
             <input type="text"><br>
